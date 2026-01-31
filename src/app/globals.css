@@ -20,6 +20,12 @@
   --font-mono: 'Courier New', monospace;
 }
 
+.nineties {
+    filter: url(#posterize-256);
+    image-rendering: pixelated;
+    min-height: 100vH;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
